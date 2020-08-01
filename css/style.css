@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+ 
+}
+
+header{
+    background-image: url(2.jpg);
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float:right;
+       margin-top: 25px; 
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.container{
+    max-width:1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    transform: translate3d(-50%,-50%);
+}
+.title h2{
+    color: aliceblue;
+    font-size: 70px;
+}
+.quick-link{
+    top:90%;
+    left: 70%;
+    transform: translate3d(-50%,-50%);
+}
+.main{
+    padding: 20px 20px;
+   position: absolute;
+    top:50%;
+    transform: translate3d(-50%,-50%);
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.about{
+    position: absolute;
+     top:25%;
+    left: 45%;
+    transform: translate3d(-50%,-50%);
+    color: azure;
+}
+.service{
+    position: absolute;
+     top:40%;
+    left: 10%;
+    transform: translate3d(-50%,-50%);
+    color: azure;
+    width:1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.service .box{
+    position: relative;
+    width: 200px;
+    padding: 60px 40px 60px;
+    border:1px solid transparent;
+   box-shadow: 0 15px 45px rgba(0,0,0,1);
+    
+    
+}
+
+h3 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:1px solid transparent;
+}
+
+h3 a:hover
+{ background-color: aliceblue;
+    color: black;
+}
+
+.signup{
+   position: absolute;
+    top:25%;
+    left: 35%;
+    transform: translate3d(-50%,-50%);
+    color: azure;
+    padding: 60px 40px 60px;
+    text-align: center;
+     box-shadow: 0 15px 45px rgba(0,0,0,1);
+
+        
+}
+
+.btn btn-primary{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border:1px solid transparent;
+   
+    
+}
+
+
+.Submitt{
+    margin: 5%;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border:1px solid transparent;
+}
